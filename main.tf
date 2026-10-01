@@ -3,7 +3,7 @@ provider "aws"{
 }
 
 resource "aws_instance" "example"{
-  count = 2
+  count = 3
   ami = "ami-01a00762f46d584a1"
   instance_type = "t2.micro"
 
